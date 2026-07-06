@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+
+TestResults/
+packages/
+
+appsettings.Local.json
+appsettings.*.local.json
