@@ -4,6 +4,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <PostBuildEvent>copy SharedLibrary.dll $(OutDir)..\..\..\..\..\..\..\Unity\Projects\NoReDo_FE\NoReDo_FE\Assets\DLLs</PostBuildEvent>
   </PropertyGroup>
 
 </Project>
